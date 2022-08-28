@@ -8,6 +8,7 @@ Alternatively, you can simply drag and drop an ASM file onto make_test.bat
 Test files:
 
 "hello_world.asm" - default classic 'hello, world' looping test
+"hello_world_interrupts.asm" - the very first committed 'hello, world', with interrupts and stuff
 "test_blank.asm" - prototype test scratch file for simple instruction tests
 "test_proto.asm" - prototype test source code, base other tests on it (for more elaborate tests)
 "test_daa.asm" - runs DAA instruction on the range of values and then stops
