@@ -20,8 +20,8 @@ start:
     ret
 
 bdos_ascii:
-    ld  bc,8*256    ; Port to write a character out
-    out (c),e
+    ld a, e
+    out (IO_CHAR), a
     ret
 
 bdos_msg:
